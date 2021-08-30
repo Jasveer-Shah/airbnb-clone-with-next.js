@@ -3,11 +3,11 @@ import Image from "next/Image"
 
 function InfoCard({ img, location, title, description, star, price, total }) {
     return (
-        <div className='flex bg-gray-200 py-7 px-2 border-b cursor-pointer hover:opacity-80
-        hover:shadow-lg transition duration-200 ease-out first:border-t'>
+        <div className='flex  py-7 px-2 border-b cursor-pointer  hover:opacity-80
+        hover:shadow-2xl transition duration-200 ease-out first:border-t'>
             <div className='relative h-40  w-40 md:h-52  md:w-80 flex-shrink-0'>
                 <Image src={img} layout='fill' objectFit='cover'
-                    className='rounded-2xl' />
+                    className='rounded-2xl shadow-inner' />
             </div>
             <div className='flex flex-col flex-grow pl-5'>
                 <div className='flex justify-between'>

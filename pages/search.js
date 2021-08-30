@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { format } from "date-fns";
 import InfoCard from "../components/InfoCard";
-import PreviousMap from "postcss/lib/previous-map";
+
 import Map from "../components/Map";
 
 function Search({ searchResults }) {
