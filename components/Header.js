@@ -3,7 +3,7 @@ import 'react-date-range/dist/theme/default.css'; // theme css file
 import { DateRangePicker } from 'react-date-range';
 import Image from 'next/image';
 import { GlobeAltIcon, MenuIcon, SearchIcon, UserCircleIcon, UserIcon } from '@heroicons/react/solid'
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { useRouter } from 'next/dist/client/router';
 
 function Header({ placeholder }) {

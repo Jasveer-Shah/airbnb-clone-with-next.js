@@ -1,5 +1,6 @@
+
 import { HeartIcon, StarIcon } from "@heroicons/react/solid"
-import Image from "next/Image"
+import Image from "next/image"
 
 function InfoCard({ img, location, title, description, star, price, total }) {
     return (
